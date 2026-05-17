@@ -37,7 +37,7 @@ The project was created using real-world Netflix data from Kaggle and aims to ex
 - Total Columns: 12
 
 
-  # 🧹 Data Cleaning
+  # Data Cleaning
 
 The following preprocessing steps were performed:
 
@@ -65,27 +65,66 @@ The following analyses were performed:
 - Identified the most popular Netflix genres
 
 ## Release Year Trends
- Analyzed Netflix content growth over time
+- Analyzed Netflix content growth over time
 
 ## Heatmap Analysis
- Visualized content trends using heatmaps
+- Visualized content trends using heatmaps
 
 ## Dashboard Visualization
- Created a professional Netflix-style dashboard
+- Created a professional Netflix-style dashboard
 
 
   # Key Insights
 
-   Movies dominate Netflix content
-   TV-MA is the most common rating
-   The United States contributes the highest amount of content
-   Drama and Comedy are highly popular genres
-   Netflix content production increased rapidly after 2015
+  - Movies dominate Netflix content
+  - TV-MA is the most common rating
+  - The United States contributes the highest amount of content
+  - Drama and Comedy are highly popular genres
+  - Netflix content production increased rapidly after 2015
 
-### Visulization
-Data Cleaning Process:
-## Before Cleaning
-Dataset contained missing values in columns such as director, cast, and country.
+### Movies vs TV Shows
+![Before Movies TV](before_movies_tv.png)
+
+---
+
+
+### Most Common Ratings
+![Before Ratings](before_mostcommon_ratings.png)
+
+---
+
+### Netflix Content Release
+![Before Netflix Release](before_netflix_content.png)
+
+---
+
+### Top 10 Countries
+![Before Top Countries](before_top10_countries.png)
+
+## ✅ After Data Cleaning
+
+### Movies vs TV Shows Analysis
+![Movies vs TV](movies_tv.png)
+
+---
+
+### Netflix Release Trend
+![Release Trend](netflix_release_trend.png)
+
+---
+
+### Heatmap Analysis
+![Heatmap](netflix_content_release_Heat_Map.png)
+
+---
+
+### Top Genres Analysis
+![Top Genres](top_10_genres.png)
+
+---
+
+### Netflix Dashboard Visualization
+![Dashboard](dashboard.png)
 
 
   
